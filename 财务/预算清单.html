@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang=zh><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1"><title>预算清单 · 按月 + 按年</title>
+<style>*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC","Hiragino Sans GB",sans-serif;background:#F7F8FA;color:#22303C;line-height:1.65;padding:24px 14px 70px}
+.wrap{max-width:1000px;margin:0 auto}
+.hero{background:linear-gradient(135deg,#1B4965,#2E86AB);color:#fff;border-radius:18px;padding:30px 28px;margin-bottom:20px}
+.hero h1{font-size:25px;font-weight:800;margin-bottom:6px}
+.hero .sub{font-size:13.5px;opacity:.82;margin-bottom:22px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+.kpi{background:rgba(255,255,255,.13);border-radius:12px;padding:13px 15px}
+.kpi b{display:block;font-size:22px;font-weight:800}
+.kpi span{font-size:11px;opacity:.8}
+h2{font-size:19px;color:#1B4965;font-weight:800;margin:30px 0 6px;padding-left:12px;border-left:5px solid #2E86AB}
+.lead{font-size:13.5px;color:#5A6B7C;margin-bottom:14px;padding-left:17px}
+.card{background:#fff;border-radius:14px;padding:16px 18px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{background:#EEF3F7;color:#4A6076;font-size:11.5px;font-weight:700;padding:9px 8px;text-align:left}
+td{padding:8px;border-bottom:1px solid #F0F3F6}
+tr:last-child td{border-bottom:none}
+td.ic{text-align:center;font-size:15px;width:30px}
+td.nm{font-weight:600;color:#1B4965}
+td.m{font-weight:800;color:#2E86AB;text-align:right;white-space:nowrap}
+td.nt{color:#8A94A0;font-size:12px}
+td.y{font-weight:700;text-align:right;color:#F4A259}
+tr.sum td{background:#EFF6FA;font-weight:800;color:#1B4965;font-size:14px}
+.box{border-radius:12px;padding:15px 17px;margin:13px 0;font-size:13.5px;border-left:5px solid}
+.box.g{background:#F2F8EE;border-color:#6A994E}.box.o{background:#FEF7EC;border-color:#F4A259}
+.box.b{background:#EFF6FA;border-color:#2E86AB}.box.r{background:#FDF2EE;border-color:#E4572E}
+.box h4{font-size:14px;margin-bottom:6px;color:#1B4965}
+.box ul{padding-left:18px}.box li{margin:3px 0}
+.foot{text-align:center;font-size:12px;color:#A8B3BF;margin-top:34px;padding-top:18px;border-top:1px solid #E4E9EE}
+.tag{display:inline-block;background:#EEF3F7;color:#4A6076;font-size:11px;padding:2px 7px;border-radius:5px;margin-right:4px}</style></head><body><div class=wrap>
+
+<div class=hero><h1>预算清单 · 按月 + 按年</h1>
+<div class=sub>26 项支出逐条定案后的执行版 · 养车按实际参数重算 · 2026年9月</div>
+<div class=kpis>
+<div class=kpi><b>11,169</b><span>每月固定支出</span></div>
+<div class=kpi><b>140,828</b><span>年度总计（第三年起）</span></div>
+<div class=kpi><b>10,328</b><span>其中养车</span></div>
+<div class=kpi><b>+1,000</b><span>次年比稳态多（保险）</span></div>
+</div></div>
+
+<h2>一、养车专项 <span style="font-size:12px;color:#8D99AE;font-weight:500">按你给的实际参数</span></h2>
+<div class=lead>保险 7,000→6,000→4,000，单位停车免费，小区 1,800/年，电费按 15,000 公里算。</div>
+<div class="box b"><h4>⚡ 电费怎么算出来的</h4>
+<div style="font-size:13.5px;line-height:2">
+15,000 km ÷ 100 × <b>13 kWh/100km</b>（Model 3 市区+高速实测均值）= <b>1,950 度</b><br>
+1,950 度 × <b>0.7 元/度</b> = <b>1,365 元/年 = 114 元/月</b></div>
+<div style="font-size:12.5px;color:#7A8899;margin-top:8px">灵敏度：12kWh→1,260 元 · 14kWh→1,470 元 · 15kWh→1,575 元。
+<b>如果你夜里用谷电（约 0.3 元/度），电费能降到 585 元/年。</b></div></div>
+
+<div class=card style="padding:12px 14px;overflow-x:auto"><table><thead>
+<tr><th></th><th>按年项目</th><th>第一年</th><th>第二年</th><th>第三年起</th><th>说明</th></tr></thead>
+<tbody><tr><td class=ic>🚗</td><td class=nm>养车 · 车险</td><td class=y>7,000</td><td class=y>6,000</td><td class=y>4,000</td><td class=nt>首年含新车全险，逐年降</td></tr><tr><td class=ic>🚗</td><td class=nm>养车 · 保养</td><td class=y>0</td><td class=y>300</td><td class=y>300</td><td class=nt>Model 3 前两年只有空调滤芯</td></tr><tr><td class=ic>🚗</td><td class=nm>养车 · 轮胎摊销</td><td class=y>0</td><td class=y>0</td><td class=y>1,000</td><td class=nt>4 条约 4,000，5万km 换一次</td></tr><tr><td class=ic>🚗</td><td class=nm>养车 · 高速过路费</td><td class=y>1,000</td><td class=y>1,000</td><td class=y>1,000</td><td class=nt>跑长途；若属旅行从旅行池出</td></tr><tr><td class=ic>🚗</td><td class=nm>养车 · 临时停车</td><td class=y>500</td><td class=y>500</td><td class=y>500</td><td class=nt>商场/路边</td></tr>
+<tr class=sum><td></td><td>按年小计</td><td class=y>8,500</td><td class=y>7,800</td><td class=y>6,800</td><td></td></tr>
+</tbody></table></div>
+
+<div class=card style="padding:12px 14px"><table><thead>
+<tr><th></th><th>养车合计（含按月部分）</th><th>第一年</th><th>第二年</th><th>第三年起</th></tr></thead><tbody>
+<tr><td class=ic>🚗</td><td class=nm>月度部分 电费 114 + 停车 150 + 洗车 30</td><td class=y>3,528</td><td class=y>3,528</td><td class=y>3,528</td></tr>
+<tr><td class=ic>🚗</td><td class=nm>年度部分（上表）</td><td class=y>8,500</td><td class=y>7,800</td><td class=y>6,800</td></tr>
+<tr class=sum><td></td><td>养车总计</td><td class=y>12,028</td><td class=y>11,328</td><td class=y>10,328</td></tr>
+</tbody></table></div>
+<div class="box g"><h4>✅ 养车比原预算还省</h4>
+原预算养车 12,000/年。按实际参数算，首年 <b>12,028</b>、次年 <b>11,328</b>、第三年起 <b>10,328</b>。
+<b>省下来的主要是单位停车免费（原本估了 0，实际确认免费）和保险逐年下降。</b></div>
+
+<h2>二、按月清单 <span style="font-size:12px;color:#8D99AE;font-weight:500">每月固定记这 25 项</span></h2>
+<div class=card style="padding:12px 14px"><table><thead>
+<tr><th></th><th>项目</th><th style="text-align:right">每月</th><th>说明</th></tr></thead>
+<tbody><tr><td class=ic>🏠</td><td class=nm>房租（含水电网）</td><td class=m>2,100</td><td class=nt>合同 2,100×12，一年一签</td></tr><tr><td class=ic>🍚</td><td class=nm>食物&餐饮</td><td class=m>2,000</td><td class=nt>外卖↓ 自制健康食材↑，早餐固定化</td></tr><tr><td class=ic>🤝</td><td class=nm>请客&聚餐</td><td class=m>600</td><td class=nt>请别人吃饭，独立于「吃饭」</td></tr><tr><td class=ic>🍽</td><td class=nm>吃饭</td><td class=m>300</td><td class=nt>自己/两人下馆子</td></tr><tr><td class=ic>💕</td><td class=nm>约会&恋爱</td><td class=m>500</td><td class=nt>含礼物、看剧、出行</td></tr><tr><td class=ic>🧴</td><td class=nm>生活&日用</td><td class=m>610</td><td class=nt>家居消耗品（洗护已移出）</td></tr><tr><td class=ic>💄</td><td class=nm>妆容&护理</td><td class=m>250</td><td class=nt>含水乳、洗发水、沐浴露、牙刷</td></tr><tr><td class=ic>🧹</td><td class=nm>保洁</td><td class=m>100</td><td class=nt>你分摊的那一份，不一定全你出</td></tr><tr><td class=ic>📦</td><td class=nm>大件&电器</td><td class=m>500</td><td class=nt>年池子 6,000，超了顺延</td></tr><tr><td class=ic>🚇</td><td class=nm>通勤</td><td class=m>200</td><td class=nt>地铁+公交+偶尔打车</td></tr><tr><td class=ic>🚗</td><td class=nm>养车 · 电费</td><td class=m>114</td><td class=nt>15,000km × 13kWh/100km × 0.7元</td></tr><tr><td class=ic>🚗</td><td class=nm>养车 · 小区停车</td><td class=m>150</td><td class=nt>1,800/年</td></tr><tr><td class=ic>🚗</td><td class=nm>养车 · 洗车</td><td class=m>30</td><td class=nt>约 30/次 × 12</td></tr><tr><td class=ic>✈️</td><td class=nm>旅行池</td><td class=m>2,083</td><td class=nt>国内+出国+交通+门票+住宿 全包 25,000/年</td></tr><tr><td class=ic>🎁</td><td class=nm>礼物</td><td class=m>500</td><td class=nt>给家人</td></tr><tr><td class=ic>👔</td><td class=nm>衣着&配饰</td><td class=m>350</td><td class=nt>一年约 12 件，单笔 300</td></tr><tr><td class=ic>🎮</td><td class=nm>休闲&娱乐</td><td class=m>208</td><td class=nt>含演出、电影、球赛、游戏</td></tr><tr><td class=ic>💪</td><td class=nm>游泳&锻炼</td><td class=m>167</td><td class=nt>年卡+器材</td></tr><tr><td class=ic>🏥</td><td class=nm>医疗&保健</td><td class=m>100</td><td class=nt>能报销，这是自费部分</td></tr><tr><td class=ic>📱</td><td class=nm>电话&通信</td><td class=m>44</td><td class=nt>40 元套餐，别被动升级</td></tr><tr><td class=ic>📺</td><td class=nm>会员&订阅</td><td class=m>50</td><td class=nt>山姆+薄荷留，其余季度清理</td></tr><tr><td class=ic>📚</td><td class=nm>工作&学习</td><td class=m>50</td><td class=nt>单位有书卡</td></tr><tr><td class=ic>🎀</td><td class=nm>人情&礼品</td><td class=m>42</td><td class=nt>同事/老师/朋友</td></tr><tr><td class=ic>🔧</td><td class=nm>杂项&意外</td><td class=m>50</td><td class=nt>货拉拉、维修、跑腿、捐助</td></tr><tr><td class=ic>❓</td><td class=nm>漏记支出</td><td class=m>71</td><td class=nt>余额校正，占支出 0.5%</td></tr>
+<tr class=sum><td></td><td>按月小计</td><td class=m>11,169</td><td>× 12 = 134,028/年</td></tr>
+</tbody></table></div>
+
+<h2>三、年度总计</h2>
+<div class=card style="padding:12px 14px"><table><thead>
+<tr><th>阶段</th><th style="text-align:right">月均</th><th style="text-align:right">年度总计</th><th>构成</th></tr></thead><tbody>
+<tr><td class=nm>第一年（2026-09 ~ 2027-08）</td><td class=m>11,877</td><td class=y>142,528</td><td class=nt>按月 134,028 + 按年 8,500</td></tr>
+<tr><td class=nm>第二年（2027-09 ~ 2028-08）</td><td class=m>11,819</td><td class=y>141,828</td><td class=nt>按月 134,028 + 按年 7,800</td></tr>
+<tr class=sum><td>第三年起（2028-09 ~ ）稳态</td><td class=m>11,736</td><td class=y>140,828</td><td class=nt>按月 134,028 + 按年 6,800</td></tr>
+</tbody></table></div>
+
+<h2>四、怎么记 <span style="font-size:12px;color:#8D99AE;font-weight:500">记账建议</span></h2>
+<div class="box b"><h4>📝 三条规则</h4><ul>
+<li><b>按月项</b>：薄荷里设成「周期记账」，每月 1 日自动生成，你只需要核对金额有没有变。</li>
+<li><b>按年项</b>：<b>不要摊到月</b>。保险 7,000 砸下来的那个月，账会很吓人——但那不是你这个月超支了。单独建一个<b>「养车年费」</b>分类，一年只记 1–2 笔。</li>
+<li><b>旅行池 2,083/月</b>：这个也不用真按月花。建议<b>每月往一个单独账户转 2,083</b>，出门时从里面花，这样一次出国不会冲击当月账。</li></ul></div>
+<div class="box o"><h4>⚠️ 三个会被忽略的漏项</h4><ul>
+<li><b>高速过路费</b>如果这趟是旅行，应该从<b>旅行池</b>出，不要重复记在养车里。</li>
+<li><b>违章罚款</b>没算。上海一次 200，一年 2–3 次就是 600。</li>
+<li><b>体检</b>没算。你账本里完全没有这一项，建议 2027 年 4 月加上，300–800。</li></ul></div>
+
+<div class="box r"><h4>🔧 一处更正（重要）</h4>
+上一版报告里的年度预算 <b>138,300</b> <u>漏掉了「👔 衣着&配饰」4,200/年</u>——那是你在第 12 项里定下的 350/月，我建总账时漏加了。<br><br>
+修正后：<b>138,300 + 4,200（补衣着）− 1,672（养车按实际参数省下）= 140,828</b>。<br>
+影响：破 100 万从 2034 年 6 月<b>推后到 2034 年 8 月</b>（1.3 个月）。500 万的时间也相应推后约半年。<br>
+<b>报告和 Obsidian 的表格我会一并更正。</b></div>
+<div class=box><h4>🎯 一句话</h4>
+<b>每月固定 11,169 元，一年 140,828 元（第三年起）。</b>
+其中养车 10,328、房租 25,200、吃饭（食物+请客+吃饭）34,800、旅行 25,000。
+<b>这四项加起来 95,328，占全年 68%。</b></div>
+
+<div class=foot>基于 2025-09 ~ 2026-08 实际账本（3,407 笔）+ 26 项逐条决策 · 2026-09</div>
+</div></body></html>
